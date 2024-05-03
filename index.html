@@ -1,15 +1,196 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstroDude</title>
-    <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AstroDude</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div class="company-name">AstroDude</div>
-    <div class="progress-message">
-        <h1>Website Designing is in Progress</h1>
-        <p>Please come back later!</p>
+  <!-- header design -->
+  <header class="header">
+
+    <a href="#" class="logo">AstroDude</a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Shaurya Verma</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+        Decent experience in Python, HTML, CSS and MySQL. I have built amazing GUI projects using python and MySQL.
+      </p>
+      <div class="social-media">
+        <a target="_blank" rel="noopener noreferrer" href="https://imgs.search.brave.com/9EWnxTdX35J8yySNP6PD1zC13XA6tmTdtqpGgxa1eBY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhOR00wYjJnek0y/STVjeko1Y0hVNFpq/SjJaVFIzZFRWMWRI/a3lhemd5WVhKNE5X/TmlZV3R4YlNabGNE/MTJNVjkyYVdSbGIz/TmZjMlZoY21Ob0pt/TjBQWFkvcUJDcEMw/Rll0OGY1RTZnZFFZ/LzIwMHcuZ2lm.gif"><i class="bx bxl-youtube"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/astro.dude_/"><i
+            class="bx bxl-instagram"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/wUB2X3kV73"><i
+            class="bx bxl-discord-alt"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/AstroDude28"><i
+            class="bx bxl-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shaurya-verma-000254303/"><i
+            class="bx bxl-linkedin"></i></a>
+      </div>
+      <a target="_blank" rel="noopener noreferrer" href="https://imgs.search.brave.com/9EWnxTdX35J8yySNP6PD1zC13XA6tmTdtqpGgxa1eBY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhOR00wYjJnek0y/STVjeko1Y0hVNFpq/SjJaVFIzZFRWMWRI/a3lhemd5WVhKNE5X/TmlZV3R4YlNabGNE/MTJNVjkyYVdSbGIz/TmZjMlZoY21Ob0pt/TjBQWFkvcUJDcEMw/Rll0OGY1RTZnZFFZ/LzIwMHcuZ2lm.gif" class="btn">Download CV</a>
     </div>
+
+    <div class="home-img">
+      <img src="home.png" alt="">
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="home.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>GUI developer!</h3>
+      <p>
+        My name is Shaurya Verma and I did my 12th from Sharda Global School, ranchi. Throughout my school life I have
+        done lots of engineering projects like "Heliotropic Payload", "Drone" etc. I am passionate GUI and web
+        developer. I am also into content creation and writing.
+      </p>
+      <a href="#services" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>GUI Development</h3>
+        <p>
+          I have built amazing GUI projects using python and MySQL.
+        </p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/AstroDude28/ISRO-Management-System/tree/main" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>
+          I have built amazing websites using HTML, CSS and JavaScript.
+        </p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/AstroDude28/astrodude" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-rocket'></i>
+        <h3>engineering projects</h3>
+        <p>
+          I have built lots of projects throughout my school life.
+        </p>
+        <a target="_blank" rel="noopener noreferrer" href="https://imgs.search.brave.com/9EWnxTdX35J8yySNP6PD1zC13XA6tmTdtqpGgxa1eBY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTIuZ2lwaHkuY29t/L21lZGlhL3YxLlky/bGtQVGM1TUdJM05q/RXhOR00wYjJnek0y/STVjeko1Y0hVNFpq/SjJaVFIzZFRWMWRI/a3lhemd5WVhKNE5X/TmlZV3R4YlNabGNE/MTJNVjkyYVdSbGIz/TmZjMlZoY21Ob0pt/TjBQWFkvcUJDcEMw/Rll0OGY1RTZnZFFZ/LzIwMHcuZ2lm.gif" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bxs-book'></i>
+        <h3>Book writing</h3>
+        <p>
+          Writing book is my hobby and I always write when I get time.
+        </p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/AstroDude28/astrodude" class="btn">Read More</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="isro.png" alt="">
+        <div class="portfolio-layer">
+          <h4>ISRO Management System</h4>
+          <p>GUI built using python and MySQL.</p>
+          <a href="https://github.com/AstroDude28/ISRO-Management-System" target="_blank" rel="noopener noreferrer"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="paradoxes.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Paradoxes: The Art of Contradictions</h4>
+          <p>
+            I wrote this book to explain few most famous paradoxes.
+          </p>
+          <a href="https://a.co/d/8lVD8gJ" target="_blank" rel="noopener noreferrer"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Adress">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by AstroDude | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="script.js"></script>
 </body>
+
 </html>
