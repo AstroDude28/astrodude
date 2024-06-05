@@ -60,7 +60,7 @@ const typed = new Typed('.multiple-text', {
         'Freelancer',
         'Content Creator',
         'Author',
-        'Teacher'
+        'Tutor'
     ],
     typeSpeed: 100,
     backSpeed: 60,
